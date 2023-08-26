@@ -2,27 +2,29 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Nihal Arya's Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <title>Nihal Arya's Portfolio</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/portfolio-logo.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Favicons -->
+    <link href="assets/img/portfolio-logo.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: DevFolio
   * Updated: Jul 27 2023 with Bootstrap v5.3.1
   * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
@@ -33,1040 +35,1386 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">Nihal Arya</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            <h1 class="logo"><a href="index.html">Nihal Arya</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#skills">Skills</a></li>
-          <li><a class="nav-link scrollto " href="#work_experience">Work Experience</a></li>
-          <li><a class="nav-link scrollto " href="#projects">Projects</a></li>
-          
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#skills">Skills</a></li>
+                    <li><a class="nav-link scrollto " href="#work_experience">Work Experience</a></li>
+                    <li><a class="nav-link scrollto " href="#projects">Projects</a></li>
 
-    </div>
-  </header><!-- End Header -->
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
 
-  <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-img.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="hero-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="hero-title mb-4">I am Nihal Arya</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Data Scientist, ML & AI Engineer, Data Enthusiast"></span></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
-      </div>
-    </div>
-  </div><!-- End Hero Section -->
+    </header><!-- End Header -->
 
-  <main id="main">
+    <!-- ======= Hero Section ======= -->
+    <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-img.jpg)">
+        <div class="overlay-itro"></div>
+        <div class="hero-content display-table">
+            <div class="table-cell">
+                <div class="container">
+                    <!--<p class="display-6 color-d">Hello, world!</p>-->
+                    <h1 class="hero-title mb-4">I am Nihal Arya</h1>
+                    <p class="hero-subtitle"><span class="typed"
+                            data-typed-items="Data Scientist, ML & AI Engineer, Data Enthusiast"></span></p>
+                    <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+                </div>
+            </div>
+        </div>
+    </div><!-- End Hero Section -->
 
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about-mf sect-pt4 route">
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-12">
-                      <div class="box-shadow-full">
-                          <div class="row">
-                              <div class="col-md-6" style="padding-left:30px">
-                                  <img src="assets/img/profile-photo.jpg" height="800" width="350" class="img-fluid rounded b-shadow-a" alt="">
-                                  <br>
-                                  <br>
-                                  <br>
-                                  <div class="row">
-                                      <div class="col-sm-6 col-md-7">
-                                          <div class="about-info">
-                                              <p><span class="title-s">Name :  </span> <span style="font-size: 1.2rem;"> &nbsp; Nihal Arya</span></p>
-                                              <p><span class="title-s">Profile :  </span> <span style="font-size: 1.2rem;">&nbsp;Data Scientist/ML Engineer</span></p>
-                                              <p><span class="title-s">Email :  </span> <span style="font-size: 1.2rem;"> &ensp;nihalarya177@live.com</span></p>
-                                              <p><span class="title-s">Phone :  </span> <span style="font-size: 1.2rem;"> &nbsp;+65 86538335</span></p>
-                                          </div>
-                                      </div>
-                                  </div>
+    <main id="main">
 
-                              </div>
-                              <div class="col-md-6">
-                                  <div class="about-me pt-4 pt-md-0">
-                                      <div class="title-box-2">
-                                          <h5 class="title-left">
-                                              About me
-                                          </h5>
-                                      </div>
-                                      <p class="lead">
-                                          Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                                          imperdiet et, porttitor
-                                          at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                                          porttitor accumsan tincidunt.
-                                      </p>
-                                      <p class="lead">
-                                          Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                                          porttitor volutpat. Vestibulum
-                                          ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
-                                      </p>
-                                      <p class="lead">
-                                          Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                                          Nulla porttitor accumsan
-                                          tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                                      </p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section><!-- End About Section -->
-      <!-- ======= Skills Section ======= -->
-      <section id="skills" class="skills section-bg skill-mf">
-          <div class="container" data-aos="fade-up">
-              <div class="row">
-                  <div class="col-sm-12">
-                      <div class="title-box text-center">
-                          <h3 class="title-a">
-                              Skills
-                          </h3>
-                          <div class="line-mf"></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row skills-content">
-                  <div class="col-lg-6">
-                      <div class="progress">
-                          <span class="skill">Python<i class="val">Proficient</i></span>
-                          <div class="progress-bar-wrap">
-                              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                      </div>
-                      <br>
-                      <div class="progress">
-                          <span class="skill">DL/AI (PyTorch, Tensorflow)<i class="val">Proficient</i></span>
-                          <div class="progress-bar-wrap">
-                              <div class="progress-bar" role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                      </div>
-                      <br>
-                      <div class="progress">
-                          <span class="skill">Java<i class="val">Proficient</i></span>
-                          <div class="progress-bar-wrap">
-                              <div class="progress-bar" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                      </div>
-                      <br>
-                      <div class="progress">
-                          <span class="skill">Javascript<i class="val">Proficient</i></span>
-                          <div class="progress-bar-wrap">
-                              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                      </div>
-                      <br>
-                      <div class="progress">
-                          <span class="skill">C/C++ <i class="val">Proficient</i></span>
-                          <div class="progress-bar-wrap">
-                              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                      </div>
-                      <br>
-                  </div>
-                  <br>
-                  <div class="col-lg-6">
-                      <div class="progress">
-                          <span class="skill">Backend Dev (NodeJS)<i class="val">Proficient</i></span>
-                          <div class="progress-bar-wrap">
-                              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                      </div>
-                      <br>
-                      <div class="progress">
-                          <span class="skill">Frontend Dev (Angular, React)<i class="val">Proficient</i></span>
-                          <div class="progress-bar-wrap">
-                              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                      </div>
-                      <br>
-                      <div class="progress">
-                          <span class="skill">Databases (MongoDB, MySQL)<i class="val">Proficient</i></span>
-                          <div class="progress-bar-wrap">
-                              <div class="progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                      </div>
-                      <br>
-                      <div class="progress">
-                          <span class="skill">Flutter<i class="val">Proficient</i></span>
-                          <div class="progress-bar-wrap">
-                              <div class="progress-bar" role="progressbar" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                      </div>
-                      <br>
-                      <div class="progress">
-                          <span class="skill">CI/CD Tools (Git)<i class="val">Proficient</i></span>
-                          <div class="progress-bar-wrap">
-                              <div class="progress-bar" role="progressbar" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <br>
-              <br>
-              <p class="subtitle-a" style="font-size: 1.1rem; word-spacing: 0.2rem;">
-                  <strong>My Other Skills:</strong> Keras, MATLAB, Firebase, CUDA programming, Code Documentation, Database design, API Development,
-                  Scrum development, Machine Learning, Deep Learning, Object Detection, Natural Language Processing (NLP),
-                  Verilog, Assembly Language, Embedded C, Shell scripting.
-              </p>
-              <br>
-          </div>
-      </section>
-      <!-- End Skills Section -->
-      <!-- ======= Counter Section ======= -->
-      <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
-          <div class="overlay-mf"></div>
-          <div class="container position-relative">
-              <div class="row">
-                  <div class="col-sm-3 col-lg-3">
-                      <div class="counter-box counter-box pt-4 pt-md-0">
-                          <div class="counter-ico">
-                              <span class="ico-circle"><i class="bi bi-check"></i></span>
-                          </div>
-                          <div class="counter-num">
-                              <p data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="counter purecounter"></p>
-                              <span class="counter-text">Projects Completed</span>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-3 col-lg-3">
-                      <div class="counter-box pt-4 pt-md-0">
-                          <div class="counter-ico">
-                              <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
-                          </div>
-                          <div class="counter-num">
-                              <p data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="counter purecounter"></p>
-                              <span class="counter-text">Internships Completed</span>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-3 col-lg-3">
-                      <div class="counter-box pt-4 pt-md-0">
-                          <div class="counter-ico">
-                              <span class="ico-circle"><i class="bi bi-people"></i></span>
-                          </div>
-                          <div class="counter-num">
-                              <p data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1" class="counter purecounter"></p>
-                              <span class="counter-text">TOTAL CLIENTS</span>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-3 col-lg-3">
-                      <div class="counter-box pt-4 pt-md-0">
-                          <div class="counter-ico">
-                              <span class="ico-circle"><i class="bi bi-award"></i></span>
-                          </div>
-                          <div class="counter-num">
-                              <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="counter purecounter"></p>
-                              <span class="counter-text">Skills Acquired</span>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div><!-- End Counter Section -->
-      <!-- ======= Portfolio Section ======= -->
-      <section id="work_experience" class="portfolio-mf sect-pt4 route">
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-12">
-                      <div class="title-box text-center">
-                          <h3 class="title-a">
-                              Work Experience
-                          </h3>
-                          <p class="subtitle-a">
-                              Having interned at large companies, I have been exposed to established systems, comprehensive training, and industry insights, while my internships at start-ups
-                              <br> have fostered adaptability, hands-on experience, and an entrepreneurial spirit, shaping a well-rounded professional journey.
-                          </p>
-                          <div class="line-mf"></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-4">
-                      <div class="work-box">
-                          <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                              <div class="work-img">
-                                  <img src="assets/img/AMD-work-logo.jpg" width="400" height="180" alt="" class="img-fluid">
-                              </div>
-                          </a>
-                          <div class="work-content">
-                              <div class="row">
-                                  <div class="col-sm-8">
-                                      <h2 class="w-title">AMD</h2>
-                                      <div class="w-more">
-                                          <span class="w-ctegory">Data Science Intern</span> / <span class="w-date">Jan 2023 - Jul 2023</span>
-                                      </div>
-                                  </div>
-                                  <div class="col-sm-4" , style="padding:4px;">
-                                      <button type="button" class="btn btn-outline-info extra-button" style="color: #000000;" data-bs-toggle="modal" data-bs-target="#amdModal">
-                                          Read More
-                                      </button>
-                                  </div>
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about-mf sect-pt4 route">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="box-shadow-full">
+                            <div class="row">
+                                <div class="col-md-6" style="padding-left:30px">
+                                    <img src="assets/img/profile-photo.jpg" height="800" width="350"
+                                        class="img-fluid rounded b-shadow-a" alt="">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-7">
+                                            <div class="about-info">
+                                                <p><span class="title-s">Name : </span> <span
+                                                        style="font-size: 1.2rem;"> &nbsp; Nihal Arya</span></p>
+                                                <p><span class="title-s">Profile : </span> <span
+                                                        style="font-size: 1.2rem;">&nbsp;Data Scientist/ML
+                                                        Engineer</span></p>
+                                                <p><span class="title-s">Email : </span> <span
+                                                        style="font-size: 1.2rem;"> &ensp;nihalarya177@live.com</span>
+                                                </p>
+                                                <p><span class="title-s">Phone : </span> <span
+                                                        style="font-size: 1.2rem;"> &nbsp;+65 86538335</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                  <!-- Modal -->
-                                  <div class="modal fade" id="amdModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                      <div class="modal-dialog modal-dialog-centered">
-                                          <div class="modal-content">
-                                              <div class="modal-header">
-                                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Internship Experience</h1>
-                                                  <img src="assets/img/AMD-work-logo.jpg" width="100" height="40" alt="" class="img-fluid">
-                                              </div>
-                                              <div class="modal-body" style="color:black">
-                                                  •	Worked on a defect detection project which automated the manual process of identifying defects and cut identification time from 6 hours to 20 minutes.
-                                                  <br>
-                                                  <br>
-                                                  •	Developed an end-to-end data product on Databricks and Snowflake, encompassing data preparation, PyTorch computer vision models and MLflow for experimentation along with deploying the models using MLOps.
-                                                  <br>
-                                                  <br>
-                                                  •	Helped implement a Human-in-the-Loop pipeline that leverages user feedback for iterative model enhancement and better generalisation of new products being developed.
-                                                  <br>
-                                                  <br>
-                                                  •	Collaborated on developing a website with Docker-based deployment, utilizing Azure Kubernetes Service for solution implementation.
-                                              </div>
-                                              <div class="modal-footer">
-                                                  <text style="color:black">
-                                                      <b>Skills </b>: Pandas · Databricks · PyTorch · Snowflake · MLOps · Streamlit · OpenCV · Scikit-learn
-                                                  </text>
-                                                  <button type="button" class="btn btn-secondary" style="color: #fff; background-color: #1191c0;" data-bs-dismiss="modal">Close</button>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="about-me pt-4 pt-md-0">
+                                        <div class="title-box-2">
+                                            <h5 class="title-left">
+                                                About me
+                                            </h5>
+                                        </div>
+                                        <p class="lead">
+                                            Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur
+                                            arcu erat, accumsan id
+                                            imperdiet et, porttitor
+                                            at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non
+                                            nisi. Nulla
+                                            porttitor accumsan tincidunt.
+                                        </p>
+                                        <p class="lead">
+                                            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus
+                                            suscipit tortor eget felis
+                                            porttitor volutpat. Vestibulum
+                                            ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                                        </p>
+                                        <p class="lead">
+                                            Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia
+                                            in, elementum id enim.
+                                            Nulla porttitor accumsan
+                                            tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End About Section -->
 
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="work-box">
-                          <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                              <div class="work-img">
-                                  <img src="assets/img/Chope-logo-testimonial.png" width="420" height="250" alt="" class="img-fluid">
-                              </div>
-                          </a>
-                          <div class="work-content">
-                              <div class="row">
-                                  <div class="col-sm-8">
-                                      <h2 class="w-title">Chope</h2>
-                                      <div class="w-more">
-                                          <span class="w-ctegory">Data Analyst Intern</span> / <span class="w-date">May 2022 - Jul 2022</span>
-                                      </div>
-                                  </div>
-                                  <div class="col-sm-4" , style="padding:4px;">
-                                      <button type="button" class="btn btn-outline-info extra-button" style="color: #000000; " data-bs-toggle="modal" data-bs-target="#chopeModal">
-                                          Read More
-                                      </button>
-                                  </div>
+        <!-- ======= Skills Section ======= -->
 
-                                  <!-- Modal -->
-                                  <div class="modal fade" id="chopeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                      <div class="modal-dialog modal-dialog-centered">
-                                          <div class="modal-content">
-                                              <div class="modal-header">
-                                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Internship Experience</h1>
-                                                  <img src="assets/img/Chope-logo-white.png" width="100" height="40" alt="" class="img-fluid">
-                                              </div>
-                                              <div class="modal-body" style="color:black">
-                                                  • Assisted sta¬¬keholders by solving their data requests and their data needs to make informed business decisions.
-                                                  <br>
-                                                  <br>
-                                                  • Designed BigQuery schema for a vertical at Chope, leveraging SQL to merge raw data sources and implement business logic post consultations with stakeholders enabling the sales team to uncover novel insights.
-                                                  <br>
-                                                  <br>
-                                                  • Engineered multiple data models after ingesting and transforming raw unfiltered data using the ETL process.
-                                                  <br>
-                                                  <br>
-                                                  • Constructed Tableau dashboards for stakeholders to visualise vital company metrics.
-                                                  <br>
-                                                  <br>
-                                                  •	Helped set up Chope’s data discovery platform by streamlining procedures, proposing naming conventions, and organising dashboards resulting in self-sufficient dashboard exploration and reusability by stakeholders.
+        <section id="skills" class="skills section-bg skill-mf">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="title-box text-center">
+                            <h3 class="title-a">
+                                Skills
+                            </h3>
+                            <div class="line-mf"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row skills-content">
+                    <div class="col-lg-6">
+                        <div class="progress" style="height: 60px;
+                                                    display: block;
+                                                    background: none;
+                                                    border-radius: 0;">
+                            <span class="skill">Machine Learning (ML Models, <i class="val">Proficient</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress" style="height: 60px;
+                                                    display: block;
+                                                    background: none;
+                                                    border-radius: 0;">
+                            <span class="skill">Deep Learning (PyTorch, TensorFlow)<i class="val">Proficient</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress" style="height: 60px;
+                                                    display: block;
+                                                    background: none;
+                                                    border-radius: 0;">
+                            <span class="skill">SQL<i class="val">Proficient</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="93" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress" style="height: 60px;
+                                                    display: block;
+                                                    background: none;
+                                                    border-radius: 0;">
+                            <span class="skill">Python<i class="val">Proficient</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="progress" style="height: 60px;
+                                                    display: block;
+                                                    background: none;
+                                                    border-radius: 0;">
+                            <span class="skill">Pandas<i class="val">Proficient</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress" style="height: 60px;
+                                                    display: block;
+                                                    background: none;
+                                                    border-radius: 0;">
+                            <span class="skill">Natural Langugage Processing<i class="val">Proficient</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress" style="height: 60px;
+                                                    display: block;
+                                                    background: none;
+                                                    border-radius: 0;">
+                            <span class="skill">CI/CD Tools (Git)<i class="val">Proficient</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="81" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress" style="height: 60px;
+                                                    display: block;
+                                                    background: none;
+                                                    border-radius: 0;">
+                            <span class="skill">Statistics<i class="val">Proficient</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="81" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <p class="subtitle-a" style="font-size: 1.1rem; word-spacing: 0.2rem;">
+                    <strong>My Other Skills:</strong> Keras, MATLAB, Firebase, CUDA programming, Code Documentation,
+                    Database design, API Development,
+                    Scrum development, Machine Learning, Deep Learning, Object Detection, Natural Language Processing
+                    (NLP),
+                    Verilog, Assembly Language, Embedded C, Shell scripting.
+                </p>
+                <br>
+            </div>
+        </section>
+        <!-- End Skills Section -->
 
-                                              </div>
-                                              <div class="modal-footer">
-                                                  <text style="color:black">
-                                                      <b>Skills </b>: Extract, Transform, Load (ETL) · Data Analytics · SQL · Python (Programming Language) · Tableau · Google BigQuery · Google Data Studio
-                                                  </text>
-                                                  <button type="button" class="btn btn-secondary" style="color: #fff; background-color: #1191c0;" data-bs-dismiss="modal">Close</button>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="work-box">
-                          <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                              <div class="work-img">
-                                  <img src="assets/img/H2Oai-logo-work.png" height="250" width="420" alt="" class="img-fluid">
-                              </div>
-                          </a>
-                          <div class="work-content">
-                              <div class="row">
-                                  <div class="col-sm-8">
-                                      <h2 class="w-title">H2O.ai</h2>
-                                      <div class="w-more">
-                                          <span class="w-ctegory">Data Science Intern</span> / <span class="w-date">May 2021 - Aug 2021</span>
-                                      </div>
-                                  </div>
-                                  <div class="col-sm-4" , style="padding:4px;">
-                                      <button type="button" class="btn btn-outline-info extra-button" style="color: #000000; " data-bs-toggle="modal" data-bs-target="#h2oModal">
-                                          Read More
-                                      </button>
-                                  </div>
+        <!-- ======= Counter Section ======= -->
+        <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
+            <div class="overlay-mf"></div>
+            <div class="container position-relative">
+                <div class="row">
+                    <div class="col-sm-3 col-lg-3">
+                        <div class="counter-box counter-box pt-4 pt-md-0">
+                            <div class="counter-ico">
+                                <span class="ico-circle"><i class="bi bi-check"></i></span>
+                            </div>
+                            <div class="counter-num">
+                                <p data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1"
+                                    class="counter purecounter"></p>
+                                <span class="counter-text">Projects Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-lg-3">
+                        <div class="counter-box pt-4 pt-md-0">
+                            <div class="counter-ico">
+                                <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
+                            </div>
+                            <div class="counter-num">
+                                <p data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
+                                    class="counter purecounter"></p>
+                                <span class="counter-text">Internships Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-lg-3">
+                        <div class="counter-box pt-4 pt-md-0">
+                            <div class="counter-ico">
+                                <span class="ico-circle"><i class="bi bi-people"></i></span>
+                            </div>
+                            <div class="counter-num">
+                                <p data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1"
+                                    class="counter purecounter"></p>
+                                <span class="counter-text">TOTAL CLIENTS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-lg-3">
+                        <div class="counter-box pt-4 pt-md-0">
+                            <div class="counter-ico">
+                                <span class="ico-circle"><i class="bi bi-award"></i></span>
+                            </div>
+                            <div class="counter-num">
+                                <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1"
+                                    class="counter purecounter"></p>
+                                <span class="counter-text">Skills Acquired</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End Counter Section -->
+        <!-- ======= Portfolio Section ======= -->
+        <section id="work_experience" class="portfolio-mf sect-pt4 route">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="title-box text-center">
+                            <h3 class="title-a">
+                                Work Experience
+                            </h3>
+                            <p class="subtitle-a">
+                                Having interned at large companies, I have been exposed to established systems,
+                                comprehensive training, and industry insights, while my internships at start-ups
+                                <br> have fostered adaptability, hands-on experience, and an entrepreneurial spirit,
+                                shaping a well-rounded professional journey.
+                            </p>
+                            <div class="line-mf"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/AMD-work-logo.jpg" width="400" height="180" alt=""
+                                        class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">AMD</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Data Science Intern</span> / <span
+                                                class="w-date">Jan 2023 - Jul 2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4" , style="padding:4px;">
+                                        <button type="button" class="btn btn-outline-info extra-button"
+                                            style="color: #000000;" data-bs-toggle="modal" data-bs-target="#amdModal">
+                                            Read More
+                                        </button>
+                                    </div>
 
-                                  <!-- Modal -->
-                                  <div class="modal fade" id="h2oModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                      <div class="modal-dialog modal-dialog-centered">
-                                          <div class="modal-content">
-                                              <div class="modal-header">
-                                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Internship Experience</h1>
-                                                  <img src="assets/img/H2Oai-logo-white.png" width="100" height="40" alt="" class="img-fluid">
-                                              </div>
-                                              <div class="modal-body" style="color:black">
-                                                  • Developed an Automated Visualisation Tool using open-source libraries that can dynamically visualise data inputs with the use of Plotly and Tableau.
-                                                  <br>
-                                                  <br>
-                                                  • Developed a comprehensive Data Preparation tool using Python, Pyspark (Apache Spark), NumPy by creating UDF’s to tackle different tasks in the data preparation process with the goal of automating data preparation.
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="amdModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Internship
+                                                        Experience</h1>
+                                                    <img src="assets/img/AMD-work-logo.jpg" width="100" height="40"
+                                                        alt="" class="img-fluid">
+                                                </div>
+                                                <div class="modal-body" style="color:black">
+                                                    • Worked on a defect detection project which automated the manual
+                                                    process of identifying defects and cut identification time from 6
+                                                    hours to 20 minutes.
+                                                    <br>
+                                                    <br>
+                                                    • Developed an end-to-end data product on Databricks and Snowflake,
+                                                    encompassing data preparation, PyTorch computer vision models and
+                                                    MLflow for experimentation along with deploying the models using
+                                                    MLOps.
+                                                    <br>
+                                                    <br>
+                                                    • Helped implement a Human-in-the-Loop pipeline that leverages user
+                                                    feedback for iterative model enhancement and better generalisation
+                                                    of new products being developed.
+                                                    <br>
+                                                    <br>
+                                                    • Collaborated on developing a website with Docker-based deployment,
+                                                    utilizing Azure Kubernetes Service for solution implementation.
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <text style="color:black">
+                                                        <b>Skills </b>: Pandas · Databricks · PyTorch · Snowflake ·
+                                                        MLOps · Streamlit · OpenCV · Scikit-learn
+                                                    </text>
+                                                    <button type="button" class="btn btn-secondary"
+                                                        style="color: #fff; background-color: #1191c0;"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                              </div>
-                                              <div class="modal-footer">
-                                                  <text style="color:black">
-                                                      <b>Skills </b>: Pandas · Plotly · PySpark · Python (Programming Language) · Matplotlib · Seaborn
-                                                  </text>
-                                                  <button type="button" class="btn btn-outline-info extra-button" style="color: #000000;" data-bs-dismiss="modal">Close</button>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/Chope-logo-testimonial.png" width="420" height="250" alt=""
+                                        class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Chope</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Data Analyst Intern</span> / <span
+                                                class="w-date">May 2022 - Jul 2022</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4" , style="padding:4px;">
+                                        <button type="button" class="btn btn-outline-info extra-button"
+                                            style="color: #000000; " data-bs-toggle="modal"
+                                            data-bs-target="#chopeModal">
+                                            Read More
+                                        </button>
+                                    </div>
 
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="work-box">
-                          <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                              <div class="work-img">
-                                  <img src="assets/img/iptribe-logo-work.jpg" width="400" height="250" alt="" class="img-fluid">
-                              </div>
-                          </a>
-                          <div class="work-content">
-                              <div class="row">
-                                  <div class="col-sm-8">
-                                      <h2 class="w-title">IP-Tribe</h2>
-                                      <div class="w-more">
-                                          <span class="w-ctegory">Web Development Intern</span> / <span class="w-date">Dec 2020 - Jan 2021</span>
-                                      </div>
-                                  </div>
-                                  <div class="col-sm-4" , style="padding:4px;">
-                                      <button type="button" class="btn btn-outline-info extra-button" style="color: #000000; " data-bs-toggle="modal" data-bs-target="#iptribeModal">
-                                          Read More
-                                      </button>
-                                  </div>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="chopeModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Internship
+                                                        Experience</h1>
+                                                    <img src="assets/img/Chope-logo-white.png" width="100" height="40"
+                                                        alt="" class="img-fluid">
+                                                </div>
+                                                <div class="modal-body" style="color:black">
+                                                    • Assisted sta¬¬keholders by solving their data requests and their
+                                                    data needs to make informed business decisions.
+                                                    <br>
+                                                    <br>
+                                                    • Designed BigQuery schema for a vertical at Chope, leveraging SQL
+                                                    to merge raw data sources and implement business logic post
+                                                    consultations with stakeholders enabling the sales team to uncover
+                                                    novel insights.
+                                                    <br>
+                                                    <br>
+                                                    • Engineered multiple data models after ingesting and transforming
+                                                    raw unfiltered data using the ETL process.
+                                                    <br>
+                                                    <br>
+                                                    • Constructed Tableau dashboards for stakeholders to visualise vital
+                                                    company metrics.
+                                                    <br>
+                                                    <br>
+                                                    • Helped set up Chope’s data discovery platform by streamlining
+                                                    procedures, proposing naming conventions, and organising dashboards
+                                                    resulting in self-sufficient dashboard exploration and reusability
+                                                    by stakeholders.
 
-                                  <!-- Modal -->
-                                  <div class="modal fade" id="iptribeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                      <div class="modal-dialog modal-dialog-centered">
-                                          <div class="modal-content">
-                                              <div class="modal-header">
-                                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Internship Experience</h1>
-                                                  <img src="assets/img/iptribe-logo-work.jpg" width="100" height="40" alt="" class="img-fluid">
-                                              </div>
-                                              <div class="modal-body" style="color:black">
-                                                  • Worked on developing a website with a login/register portal with encryption and validation by connecting a MySQL database.
-                                                  <br>
-                                                  <br>
-                                                  • Also worked on a homepage that uses a MySQL Database to display different reports of employees in a sortable, searchable table along with filtering.
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <text style="color:black">
+                                                        <b>Skills </b>: Extract, Transform, Load (ETL) · Data Analytics
+                                                        · SQL · Python (Programming Language) · Tableau · Google
+                                                        BigQuery · Google Data Studio
+                                                    </text>
+                                                    <button type="button" class="btn btn-secondary"
+                                                        style="color: #fff; background-color: #1191c0;"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/H2Oai-logo-work.png" height="250" width="420" alt=""
+                                        class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">H2O.ai</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Data Science Intern</span> / <span
+                                                class="w-date">May 2021 - Aug 2021</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4" , style="padding:4px;">
+                                        <button type="button" class="btn btn-outline-info extra-button"
+                                            style="color: #000000; " data-bs-toggle="modal" data-bs-target="#h2oModal">
+                                            Read More
+                                        </button>
+                                    </div>
 
-                                              </div>
-                                              <div class="modal-footer">
-                                                  <text style="color:black">
-                                                      <b>Skills </b>: Tableau · Excel · Pandas · Python (Programming Language)
-                                                  </text>
-                                                  <button type="button" class="btn btn-secondary" style="color: #fff; background-color: #1191c0;" data-bs-dismiss="modal">Close</button>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="work-box">
-                          <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                              <div class="work-img">
-                                  <img src="assets/img/creshya-logo-work.jpg" width="410" height="250" alt="" class="img-fluid">
-                              </div>
-                          </a>
-                          <div class="work-content">
-                              <div class="row">
-                                  <div class="col-sm-8">
-                                      <h2 class="w-title">Creshya Technologies</h2>
-                                      <div class="w-more">
-                                          <span class="w-ctegory">Project Intern</span> / <span class="w-date">Aug 2019 - Dec 2019</span>
-                                      </div>
-                                  </div>
-                                  <div class="col-sm-4" , style="padding:4px;">
-                                      <button type="button" class="btn btn-outline-info extra-button" style="color: #000000; " data-bs-toggle="modal" data-bs-target="#creshyaModal">
-                                          Read More
-                                      </button>
-                                  </div>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="h2oModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Internship
+                                                        Experience</h1>
+                                                    <img src="assets/img/H2Oai-logo-white.png" width="100" height="40"
+                                                        alt="" class="img-fluid">
+                                                </div>
+                                                <div class="modal-body" style="color:black">
+                                                    • Developed an Automated Visualisation Tool using open-source
+                                                    libraries that can dynamically visualise data inputs with the use of
+                                                    Plotly and Tableau.
+                                                    <br>
+                                                    <br>
+                                                    • Developed a comprehensive Data Preparation tool using Python,
+                                                    Pyspark (Apache Spark), NumPy by creating UDF’s to tackle different
+                                                    tasks in the data preparation process with the goal of automating
+                                                    data preparation.
 
-                                  <!-- Modal -->
-                                  <div class="modal fade" id="creshyaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                      <div class="modal-dialog modal-dialog-centered">
-                                          <div class="modal-content">
-                                              <div class="modal-header">
-                                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Internship Experience</h1>
-                                                  <img src="assets/img/creshya-logo-white.png" width="100" height="40" alt="" class="img-fluid">
-                                              </div>
-                                              <div class="modal-body" style="color:black">
-                                                  • Worked on a project to optimise occupancy in the cars of an online car rental firm.
-                                                  <br>
-                                                  <br>
-                                                  • Used MS Excel, Python Data Frames such as Pandas and PySpark along with visualisation tools like Tableau.
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <text style="color:black">
+                                                        <b>Skills </b>: Pandas · Plotly · PySpark · Python (Programming
+                                                        Language) · Matplotlib · Seaborn
+                                                    </text>
+                                                    <button type="button" class="btn btn-outline-info extra-button"
+                                                        style="color: #000000;" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                              </div>
-                                              <div class="modal-footer">
-                                                  <text style="color:black">
-                                                      <b>Skills </b>: Tableau · Excel · Pandas · Python (Programming Language)
-                                                  </text>
-                                                  <button type="button" class="btn btn-secondary" style="color: #fff; background-color: #1191c0;" data-bs-dismiss="modal">Close</button>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/iptribe-logo-work.jpg" width="400" height="250" alt=""
+                                        class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">IP-Tribe</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Development Intern</span> / <span
+                                                class="w-date">Dec 2020 - Jan 2021</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4" , style="padding:4px;">
+                                        <button type="button" class="btn btn-outline-info extra-button"
+                                            style="color: #000000; " data-bs-toggle="modal"
+                                            data-bs-target="#iptribeModal">
+                                            Read More
+                                        </button>
+                                    </div>
 
-                              </div>
-                          </div>
-                      </div>
-                  </div>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="iptribeModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Internship
+                                                        Experience</h1>
+                                                    <img src="assets/img/iptribe-logo-work.jpg" width="100" height="40"
+                                                        alt="" class="img-fluid">
+                                                </div>
+                                                <div class="modal-body" style="color:black">
+                                                    • Worked on developing a website with a login/register portal with
+                                                    encryption and validation by connecting a MySQL database.
+                                                    <br>
+                                                    <br>
+                                                    • Also worked on a homepage that uses a MySQL Database to display
+                                                    different reports of employees in a sortable, searchable table along
+                                                    with filtering.
 
-              </div>
-          </div>
-      </section><!-- End Portfolio Section -->
-      <!-- ======= Testimonials Section ======= -->
-      <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
-          <div class="overlay-mf"></div>
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-12">
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <text style="color:black">
+                                                        <b>Skills </b>: Tableau · Excel · Pandas · Python (Programming
+                                                        Language)
+                                                    </text>
+                                                    <button type="button" class="btn btn-secondary"
+                                                        style="color: #fff; background-color: #1191c0;"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/creshya-logo-work.jpg" width="410" height="250" alt=""
+                                        class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Creshya Technologies</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Project Intern</span> / <span class="w-date">Aug
+                                                2019 - Dec 2019</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4" , style="padding:4px;">
+                                        <button type="button" class="btn btn-outline-info extra-button"
+                                            style="color: #000000; " data-bs-toggle="modal"
+                                            data-bs-target="#creshyaModal">
+                                            Read More
+                                        </button>
+                                    </div>
 
-                      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                          <div class="swiper-wrapper">
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="creshyaModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Internship
+                                                        Experience</h1>
+                                                    <img src="assets/img/creshya-logo-white.png" width="100" height="40"
+                                                        alt="" class="img-fluid">
+                                                </div>
+                                                <div class="modal-body" style="color:black">
+                                                    • Worked on a project to optimise occupancy in the cars of an online
+                                                    car rental firm.
+                                                    <br>
+                                                    <br>
+                                                    • Used MS Excel, Python Data Frames such as Pandas and PySpark along
+                                                    with visualisation tools like Tableau.
 
-                              <div class="swiper-slide">
-                                  <div class="testimonial-box">
-                                      <div class="author-test">
-                                          <img src="assets/img/gomathy-img.jpeg" height="120" width="120" alt="" class="rounded-circle b-shadow-a">
-                                          <br>
-                                          <br>
-                                          <span class="author" style="padding:0px; font-weight: bold;">Gomathy Shankar</span>
-                                          <span class="w-category">Lead Data Scientist, AMD</span>
-                                      </div>
-                                      <br>
-                                      <div class="content-test">
-                                          <p class="description lead">
-                                              Nihal interned with our Data Science team at AMD for a period of around 6 months. He was a very good value add to the capabilities that our team provided. He was curious and eager to learn the nuances of the project and delivered an exceptional performance.
-                                              His contributions in the project which circled around ML modeling and MLOps has helped us in delivering our project on time. I wish all the best in all his endeavors.
-                                          </p>
-                                      </div>
-                                  </div>
-                              </div><!-- End testimonial item -->
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <text style="color:black">
+                                                        <b>Skills </b>: Tableau · Excel · Pandas · Python (Programming
+                                                        Language)
+                                                    </text>
+                                                    <button type="button" class="btn btn-secondary"
+                                                        style="color: #fff; background-color: #1191c0;"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                              <div class="swiper-slide">
-                                  <div class="testimonial-box">
-                                      <div class="author-test">
-                                          <img src="assets/img/alice-amd.jpg" height="120" width="120" alt="" class="rounded-circle b-shadow-a">
-                                          <br>
-                                          <br>
-                                          <span class="author" style="padding:0px; font-weight: bold;">Alice Chua Qin Hui</span>
-                                          <span class="w-category">Data Scientist, AMD</span>
-                                      </div>
-                                      <br>
-                                      <div class="content-test">
-                                          <p class="description lead">
-                                              I had the privilege of mentoring Nihal during his internship, where he showcased exceptional critical thinking and creativity in solving a complex computer vision challenge. His innovative approach and dedication significantly contributed to our project's success, leaving a lasting impact on our team. Nihal is a talented individual with a bright future ahead, and I'm confident he will excel in any endeavor he pursue. All the best Nihal and hope we cross paths again in the future!
-                                          </p>
-                                      </div>
-                                  </div>
-                              </div><!-- End testimonial item -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                              <div class="swiper-slide">
-                                  <div class="testimonial-box">
-                                      <div class="author-test">
-                                          <img src="assets/img/gabrielle-img.jpeg" alt="" height="120" width="120" class="rounded-circle b-shadow-a">
-                                          <br>
-                                          <br>
-                                          <span class="author" style="padding:0px; font-weight: bold;">Gabrielle Anne Reyes</span>
-                                          <span class="w-category">Data Analyst, Chope</span>
-                                      </div>
-                                      <br>
-                                      <div class="content-test">
-                                          <p class="description lead">
-                                              Nihal has been a big help to the Data Analytics team of Chope by doing Data tasks & requests with minimal supervision. He has the initiative to take responsibility for his tasks, take over new requests and talk to stakeholders by himself. With this, not only his technical skills on SQL and Tableau improved, but also his social and communication skills. His management skills are also very commendable as he finished tasks on time and can also juggle different requests/tasks at the same time. He also greatly contributed to the improvements of our Data Analytics dashboard and processes. He is very easy to work with and can collaborate like a professional already. We are very grateful for his contributions as this helped the team lessen our backlogs and make progress with certain future projects.
-                                          </p>
-                                      </div>
-                                  </div>
-                              </div><!-- End testimonial item -->
+                </div>
+            </div>
+        </section><!-- End Portfolio Section -->
+        <!-- ======= Testimonials Section ======= -->
+        <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
+            <div class="overlay-mf"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
 
-                          </div>
-                          <div class="swiper-pagination"></div>
-                      </div>
+                        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                            <div class="swiper-wrapper">
 
-                      <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box">
+                                        <div class="author-test">
+                                            <img src="assets/img/gomathy-img.jpeg" height="120" width="120" alt=""
+                                                class="rounded-circle b-shadow-a">
+                                            <br>
+                                            <br>
+                                            <span class="author" style="padding:0px; font-weight: bold;">Gomathy
+                                                Shankar</span>
+                                            <span class="w-category">Lead Data Scientist, AMD</span>
+                                        </div>
+                                        <br>
+                                        <div class="content-test">
+                                            <p class="description lead">
+                                                Nihal interned with our Data Science team at AMD for a period of around
+                                                6 months. He was a very good value add to the capabilities that our team
+                                                provided. He was curious and eager to learn the nuances of the project
+                                                and delivered an exceptional performance.
+                                                His contributions in the project which circled around ML modeling and
+                                                MLOps has helped us in delivering our project on time. I wish all the
+                                                best in all his endeavors.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div><!-- End testimonial item -->
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box">
+                                        <div class="author-test">
+                                            <img src="assets/img/alice-amd.jpg" height="120" width="120" alt=""
+                                                class="rounded-circle b-shadow-a">
+                                            <br>
+                                            <br>
+                                            <span class="author" style="padding:0px; font-weight: bold;">Alice Chua Qin
+                                                Hui</span>
+                                            <span class="w-category">Data Scientist, AMD</span>
+                                        </div>
+                                        <br>
+                                        <div class="content-test">
+                                            <p class="description lead">
+                                                I had the privilege of mentoring Nihal during his internship, where he
+                                                showcased exceptional critical thinking and creativity in solving a
+                                                complex computer vision challenge. His innovative approach and
+                                                dedication significantly contributed to our project's success, leaving a
+                                                lasting impact on our team. Nihal is a talented individual with a bright
+                                                future ahead, and I'm confident he will excel in any endeavor he pursue.
+                                                All the best Nihal and hope we cross paths again in the future!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div><!-- End testimonial item -->
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box">
+                                        <div class="author-test">
+                                            <img src="assets/img/gabrielle-img.jpeg" alt="" height="120" width="120"
+                                                class="rounded-circle b-shadow-a">
+                                            <br>
+                                            <br>
+                                            <span class="author" style="padding:0px; font-weight: bold;">Gabrielle Anne
+                                                Reyes</span>
+                                            <span class="w-category">Data Analyst, Chope</span>
+                                        </div>
+                                        <br>
+                                        <div class="content-test">
+                                            <p class="description lead">
+                                                Nihal has been a big help to the Data Analytics team of Chope by doing
+                                                Data tasks & requests with minimal supervision. He has the initiative to
+                                                take responsibility for his tasks, take over new requests and talk to
+                                                stakeholders by himself. With this, not only his technical skills on SQL
+                                                and Tableau improved, but also his social and communication skills. His
+                                                management skills are also very commendable as he finished tasks on time
+                                                and can also juggle different requests/tasks at the same time. He also
+                                                greatly contributed to the improvements of our Data Analytics dashboard
+                                                and processes. He is very easy to work with and can collaborate like a
+                                                professional already. We are very grateful for his contributions as this
+                                                helped the team lessen our backlogs and make progress with certain
+                                                future projects.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div><!-- End testimonial item -->
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                        <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
 
                     </div> -->
-                  </div>
-              </div>
-          </div>
-      </div><!-- End Testimonials Section -->
-      <!-- ======= Blog Section ======= -->
-      <section id="projects" class="blog-mf sect-pt4 route">
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-12">
-                      <div class="title-box text-center">
-                          <h3 class="title-a">
-                              Blog
-                          </h3>
-                          <p class="subtitle-a">
-                              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                          </p>
-                          <div class="line-mf"></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-4">
-                      <div class="card card-blog">
-                          <div class="card-img">
-                              <a href="https://github.com/nihalarya177/SenSync"><img src="assets/img/sensync-logo.png" style="height:250px; width:450px;" alt="" class="img-fluid"></a>
-                          </div>
-                          <div class="card-body">
-                              <div class="card-category-box">
-                                  <div class="card-category">
-                                      <h6 class="category">MOBILE APP DEV AND ML</h6>
-                                  </div>
-                              </div>
-                              <h3 class="card-title"><a href="https://github.com/nihalarya177/SenSync">SenSync</a></h3>
-                              <p class="card-description">
-                                  Developed a comprehensive mobile app using Flutter and Firebase that leverages wearable watch data to identify sensory overload in individuals with autism. Prepared the WESAD dataset by cleaning and aligning features with watch specifications. Achieved a 99.7% accuracy rate by creating a Random Forest classiifier, later deploying it on Google Cloud Platform. Enhanced the app with features like mood logging, a breathing exercise tool, patient-caretaker communication, sensory overload alerts, real-time location updates, and educational resources.
-                              </p>
-                          </div>
-                          <div class="card-footer">
-                              <div class="post-date">
-                                  <button type="button" class="btn btn-outline-info" style="color: #000000;" onclick="window.open('https://github.com/nihalarya177/SenSync')">
-                                      Code
-                                  </button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="card card-blog">
-                          <div class="card-img">
-                              <a href="https://github.com/nihalarya177/Oxford-102-Flower-Classification"><img src="assets/img/flower-classification.png" style="height:250px; width:450px;" alt="" class="img-fluid"></a>
-                          </div>
-                          <div class="card-body">
-                              <div class="card-category-box">
-                                  <div class="card-category">
-                                      <h6 class="category">DEEP LEARNING</h6>
-                                  </div>
-                              </div>
-                              <h3 class="card-title"><a href="https://github.com/nihalarya177/Oxford-102-Flower-Classification">Multi-Class Flower Classification</a></h3>
-                              <p class="card-description">
-                                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                                  a pellentesque nec,
-                                  egestas non nisi.
-                              </p>
-                          </div>
-                          <div class="card-footer">
-                              <div class="post-date">
-                                  <button type="button" class="btn btn-outline-info" style="color: #000000;" onclick="window.open('https://github.com/nihalarya177/Oxford-102-Flower-Classification')">
-                                      Code
-                                  </button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="card card-blog">
-                          <div class="card-img">
-                              <a href="https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques"><img src="assets/img/sberbank-russian.jpg" style="height:250px; width:450px;" alt="" class="img-fluid"></a>
-                          </div>
-                          <div class="card-body">
-                              <div class="card-category-box">
-                                  <div class="card-category">
-                                      <h6 class="category">Machine Learning</h6>
-                                  </div>
-                              </div>
-                              <h3 class="card-title"><a href="https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques">Sberbank Russian Housing Market</a></h3>
-                              <p class="card-description">
-                                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                                  a pellentesque nec,
-                                  egestas non nisi.
-                              </p>
-                          </div>
-                          <div class="card-footer">
-                              <div class="post-author">
-                                  <a href="#">
-                                      <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                                      <span class="author">Morgan Freeman</span>
-                                  </a>
-                              </div>
-                              <div class="post-date">
-                                  <button type="button" class="btn btn-outline-info" style="color: #000000;" onclick="window.open('https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques')">
-                                      Code
-                                  </button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="card card-blog">
-                          <div class="card-img">
-                              <a href="blog-single.html"><img src="assets/img/house-prices.png" style="height:250px; width:450px;" alt="" class="img-fluid"></a>
-                          </div>
-                          <div class="card-body">
-                              <div class="card-category-box">
-                                  <div class="card-category">
-                                      <h6 class="category">Machine Learning</h6>
-                                  </div>
-                              </div>
-                              <h3 class="card-title"><a href="blog-single.html">Housing Prices: Advanced Regression Techniques</a></h3>
-                              <p class="card-description">
-                                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                                  a pellentesque nec,
-                                  egestas non nisi.
-                              </p>
-                          </div>
-                          <div class="card-footer">
-                              <div class="post-author">
-                                  <a href="#">
-                                      <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                                      <span class="author">Morgan Freeman</span>
-                                  </a>
-                              </div>
-                              <div class="post-date">
-                                  <button type="button" class="btn btn-outline-info" style="color: #000000;" onclick="window.open('https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques')">
-                                      Code
-                                  </button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="card card-blog">
-                          <div class="card-img">
-                              <a href="blog-single.html"><img src="assets/img/energy-performance.jpg" style="height:250px; width:450px;" alt="" class="img-fluid"></a>
-                          </div>
-                          <div class="card-body">
-                              <div class="card-category-box">
-                                  <div class="card-category">
-                                      <h6 class="category">Statistics</h6>
-                                  </div>
-                              </div>
-                              <h3 class="card-title"><a href="blog-single.html">Statistical Analysis of Energy Performance of Buildings</a></h3>
-                              <p class="card-description">
-                                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                                  a pellentesque nec,
-                                  egestas non nisi.
-                              </p>
-                          </div>
-                          <div class="card-footer">
-                              <div class="post-author">
-                                  <a href="#">
-                                      <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                                      <span class="author">Morgan Freeman</span>
-                                  </a>
-                              </div>
-                              <div class="post-date">
-                                  <button type="button" class="btn btn-outline-info" style="color: #000000;" onclick="window.open('https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques')">
-                                      Code
-                                  </button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="card card-blog">
-                          <div class="card-img">
-                              <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
-                          </div>
-                          <div class="card-body">
-                              <div class="card-category-box">
-                                  <div class="card-category">
-                                      <h6 class="category">Web Development</h6>
-                                  </div>
-                              </div>
-                              <h3 class="card-title"><a href="blog-single.html">PPark (Web Application)</a></h3>
-                              <p class="card-description">
-                                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                                  a pellentesque nec,
-                                  egestas non nisi.
-                              </p>
-                          </div>
-                          <div class="card-footer">
-                              <div class="post-author">
-                                  <a href="#">
-                                      <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                                      <span class="author">Morgan Freeman</span>
-                                  </a>
-                              </div>
-                              <div class="post-date">
-                                  <button type="button" class="btn btn-outline-info" style="color: #000000;" onclick="window.open('https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques')">
-                                      Code
-                                  </button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="card card-blog">
-                          <div class="card-img">
-                              <a href="blog-single.html"><img src="assets/img/energy-performance.jpg" style="height:250px; width:450px;" alt="" class="img-fluid"></a>
-                          </div>
-                          <div class="card-body">
-                              <div class="card-category-box">
-                                  <div class="card-category">
-                                      <h6 class="category">Statistics</h6>
-                                  </div>
-                              </div>
-                              <h3 class="card-title"><a href="blog-single.html">Statistical Analysis of Energy Performance of Buildings</a></h3>
-                              <p class="card-description">
-                                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                                  a pellentesque nec,
-                                  egestas non nisi.
-                              </p>
-                          </div>
-                          <div class="card-footer">
-                              <div class="post-author">
-                                  <a href="#">
-                                      <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                                      <span class="author">Morgan Freeman</span>
-                                  </a>
-                              </div>
-                              <div class="post-date">
-                                  <button type="button" class="btn btn-outline-info" style="color: #000000;" onclick="window.open('https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques')">
-                                      Code
-                                  </button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="card card-blog">
-                          <div class="card-img">
-                              <a href="blog-single.html"><img src="assets/img/energy-performance.jpg" style="height:250px; width:450px;" alt="" class="img-fluid"></a>
-                          </div>
-                          <div class="card-body">
-                              <div class="card-category-box">
-                                  <div class="card-category">
-                                      <h6 class="category">Statistics</h6>
-                                  </div>
-                              </div>
-                              <h3 class="card-title"><a href="blog-single.html">Statistical Analysis of Energy Performance of Buildings</a></h3>
-                              <p class="card-description">
-                                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                                  a pellentesque nec,
-                                  egestas non nisi.
-                              </p>
-                          </div>
-                          <div class="card-footer">
-                              <div class="post-author">
-                                  <a href="#">
-                                      <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                                      <span class="author">Morgan Freeman</span>
-                                  </a>
-                              </div>
-                              <div class="post-date">
-                                  <button type="button" class="btn btn-outline-info" style="color: #000000;" onclick="window.open('https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques')">
-                                      Code
-                                  </button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="card card-blog">
-                          <div class="card-img">
-                              <a href="blog-single.html"><img src="assets/img/flight-delay.jpg" style="height:250px; width:450px;" alt="" class="img-fluid"></a>
-                          </div>
-                          <div class="card-body">
-                              <div class="card-category-box">
-                                  <div class="card-category">
-                                      <h6 class="category">Machine Learning</h6>
-                                  </div>
-                              </div>
-                              <h3 class="card-title"><a href="blog-single.html">Predicting Flight Delays</a></h3>
-                              <p class="card-description">
-                                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                                  a pellentesque nec,
-                                  egestas non nisi.
-                              </p>
-                          </div>
-                          <div class="card-footer">
-                              <div class="post-author">
-                                  <a href="#">
-                                      <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                                      <span class="author">Morgan Freeman</span>
-                                  </a>
-                              </div>
-                              <div class="post-date">
-                                  <button type="button" class="btn btn-outline-info" style="color: #000000;" onclick="window.open('https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques')">
-                                      Code
-                                  </button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section><!-- End Blog Section -->
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
-          <div class="overlay-mf"></div>
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-12">
-                      <div class="contact-mf">
-                          <div id="contact" class="box-shadow-full">
-                              <div class="row">
-                                  <div class="col-md-6">
-                                      <div class="title-box-2">
-                                          <h5 class="title-left">
-                                              Send Message Us
-                                          </h5>
-                                      </div>
-                                      <div>
-                                          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                                              <div class="row">
-                                                  <div class="col-md-12 mb-3">
-                                                      <div class="form-group">
-                                                          <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                                                      </div>
-                                                  </div>
-                                                  <div class="col-md-12 mb-3">
-                                                      <div class="form-group">
-                                                          <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                                                      </div>
-                                                  </div>
-                                                  <div class="col-md-12 mb-3">
-                                                      <div class="form-group">
-                                                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                                                      </div>
-                                                  </div>
-                                                  <div class="col-md-12">
-                                                      <div class="form-group">
-                                                          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                                                      </div>
-                                                  </div>
-                                                  <div class="col-md-12 text-center my-3">
-                                                      <div class="loading">Loading</div>
-                                                      <div class="error-message"></div>
-                                                      <div class="sent-message">Your message has been sent. Thank you!</div>
-                                                  </div>
-                                                  <div class="col-md-12 text-center">
-                                                      <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                                                  </div>
-                                              </div>
-                                          </form>
-                                      </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                      <div class="title-box-2 pt-4 pt-md-0">
-                                          <h5 class="title-left">
-                                              Get in Touch
-                                          </h5>
-                                      </div>
-                                      <div class="more-info">
-                                          <p class="lead">
-                                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                                              expedita aperiam aliquid at.
-                                              Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                                              mollitia inventore?
-                                          </p>
-                                          <ul class="list-ico">
-                                              <li><span class="bi bi-geo-alt"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                              <li><span class="bi bi-phone"></span> (617) 557-0089</li>
-                                              <li><span class="bi bi-envelope"></span> contact@example.com</li>
-                                          </ul>
-                                      </div>
-                                      <div class="socials">
-                                          <ul>
-                                              <li><a href=""><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
-                                              <li><a href=""><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
-                                              <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
-                                              <li><a href=""><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section><!-- End Contact Section -->
+                    </div>
+                </div>
+            </div>
+        </div><!-- End Testimonials Section -->
 
-  </main><!-- End #main -->
+        <!-- ======= Blog Section ======= -->
+        <section id="projects" class="blog-mf sect-pt4 route">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="title-box text-center">
+                            <h3 class="title-a">
+                                Blog
+                            </h3>
+                            <p class="subtitle-a">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <div class="line-mf"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" data-aos="fade-up">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <div class="portfolio">
+                            <ul id="portfolio-flters">
+                                <li data-filter="*" class="filter-active">All</li>
+                                <li data-filter=".filter-app">App</li>
+                                <li data-filter=".filter-card">Card</li>
+                                <li data-filter=".filter-web">Web</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100"></div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="card card-blog">
+                            <div class="card-img">
+                                <a href="https://github.com/nihalarya177/SenSync"><img src="assets/img/sensync-logo.png"
+                                        style="height:250px; width:450px;" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-category-box">
+                                    <div class="card-category">
+                                        <h6 class="category">MOBILE APP DEV AND ML</h6>
+                                    </div>
+                                </div>
+                                <h3 class="card-title"><a href="https://github.com/nihalarya177/SenSync">SenSync</a>
+                                </h3>
+                                <p class="card-description">
+                                    Developed a comprehensive mobile app using Flutter and Firebase that leverages
+                                    wearable watch data to identify sensory overload in individuals with autism.
+                                    Prepared the WESAD dataset by cleaning and aligning features with watch
+                                    specifications. Achieved a 99.7% accuracy rate by creating a Random Forest
+                                    classiifier, later deploying it on Google Cloud Platform. Enhanced the app with
+                                    features like mood logging, a breathing exercise tool, patient-caretaker
+                                    communication, sensory overload alerts, real-time location updates, and educational
+                                    resources.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="post-date">
+                                    <button type="button" class="btn btn-outline-info" style="color: #000000;"
+                                        onclick="window.open('https://github.com/nihalarya177/SenSync')">
+                                        Code
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                            <div class="card-img">
+                                <a href="https://github.com/nihalarya177/Oxford-102-Flower-Classification"><img
+                                        src="assets/img/flower-classification.png" style="height:250px; width:450px;"
+                                        alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-category-box">
+                                    <div class="card-category">
+                                        <h6 class="category">DEEP LEARNING</h6>
+                                    </div>
+                                </div>
+                                <h3 class="card-title"><a
+                                        href="https://github.com/nihalarya177/Oxford-102-Flower-Classification">Multi-Class
+                                        Flower Classification</a></h3>
+                                <p class="card-description">
+                                    Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent
+                                    sapien massa, convallis
+                                    a pellentesque nec,
+                                    egestas non nisi.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="post-date">
+                                    <button type="button" class="btn btn-outline-info" style="color: #000000;"
+                                        onclick="window.open('https://github.com/nihalarya177/Oxford-102-Flower-Classification')">
+                                        Code
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                            <div class="card-img">
+                                <a href="https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques"><img
+                                        src="assets/img/sberbank-russian.jpg" style="height:250px; width:450px;" alt=""
+                                        class="img-fluid"></a>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-category-box">
+                                    <div class="card-category">
+                                        <h6 class="category">Machine Learning</h6>
+                                    </div>
+                                </div>
+                                <h3 class="card-title"><a
+                                        href="https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques">Sberbank
+                                        Russian Housing Market</a></h3>
+                                <p class="card-description">
+                                    Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent
+                                    sapien massa, convallis
+                                    a pellentesque nec,
+                                    egestas non nisi.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="post-author">
+                                    <a href="#">
+                                        <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                                        <span class="author">Morgan Freeman</span>
+                                    </a>
+                                </div>
+                                <div class="post-date">
+                                    <button type="button" class="btn btn-outline-info" style="color: #000000;"
+                                        onclick="window.open('https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques')">
+                                        Code
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                            <div class="card-img">
+                                <a href="blog-single.html"><img src="assets/img/house-prices.png"
+                                        style="height:250px; width:450px;" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-category-box">
+                                    <div class="card-category">
+                                        <h6 class="category">Machine Learning</h6>
+                                    </div>
+                                </div>
+                                <h3 class="card-title"><a href="blog-single.html">Housing Prices: Advanced Regression
+                                        Techniques</a></h3>
+                                <p class="card-description">
+                                    Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent
+                                    sapien massa, convallis
+                                    a pellentesque nec,
+                                    egestas non nisi.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="post-author">
+                                    <a href="#">
+                                        <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                                        <span class="author">Morgan Freeman</span>
+                                    </a>
+                                </div>
+                                <div class="post-date">
+                                    <button type="button" class="btn btn-outline-info" style="color: #000000;"
+                                        onclick="window.open('https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques')">
+                                        Code
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                            <div class="card-img">
+                                <a href="blog-single.html"><img src="assets/img/energy-performance.jpg"
+                                        style="height:250px; width:450px;" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-category-box">
+                                    <div class="card-category">
+                                        <h6 class="category">Statistics</h6>
+                                    </div>
+                                </div>
+                                <h3 class="card-title"><a href="blog-single.html">Statistical Analysis of Energy
+                                        Performance of Buildings</a></h3>
+                                <p class="card-description">
+                                    Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent
+                                    sapien massa, convallis
+                                    a pellentesque nec,
+                                    egestas non nisi.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="post-author">
+                                    <a href="#">
+                                        <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                                        <span class="author">Morgan Freeman</span>
+                                    </a>
+                                </div>
+                                <div class="post-date">
+                                    <button type="button" class="btn btn-outline-info" style="color: #000000;"
+                                        onclick="window.open('https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques')">
+                                        Code
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                            <div class="card-img">
+                                <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt=""
+                                        class="img-fluid"></a>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-category-box">
+                                    <div class="card-category">
+                                        <h6 class="category">Web Development</h6>
+                                    </div>
+                                </div>
+                                <h3 class="card-title"><a href="blog-single.html">PPark (Web Application)</a></h3>
+                                <p class="card-description">
+                                    Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent
+                                    sapien massa, convallis
+                                    a pellentesque nec,
+                                    egestas non nisi.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="post-author">
+                                    <a href="#">
+                                        <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                                        <span class="author">Morgan Freeman</span>
+                                    </a>
+                                </div>
+                                <div class="post-date">
+                                    <button type="button" class="btn btn-outline-info" style="color: #000000;"
+                                        onclick="window.open('https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques')">
+                                        Code
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                            <div class="card-img">
+                                <a href="blog-single.html"><img src="assets/img/energy-performance.jpg"
+                                        style="height:250px; width:450px;" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-category-box">
+                                    <div class="card-category">
+                                        <h6 class="category">Statistics</h6>
+                                    </div>
+                                </div>
+                                <h3 class="card-title"><a href="blog-single.html">Statistical Analysis of Energy
+                                        Performance of Buildings</a></h3>
+                                <p class="card-description">
+                                    Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent
+                                    sapien massa, convallis
+                                    a pellentesque nec,
+                                    egestas non nisi.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="post-author">
+                                    <a href="#">
+                                        <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                                        <span class="author">Morgan Freeman</span>
+                                    </a>
+                                </div>
+                                <div class="post-date">
+                                    <button type="button" class="btn btn-outline-info" style="color: #000000;"
+                                        onclick="window.open('https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques')">
+                                        Code
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                            <div class="card-img">
+                                <a href="blog-single.html"><img src="assets/img/energy-performance.jpg"
+                                        style="height:250px; width:450px;" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-category-box">
+                                    <div class="card-category">
+                                        <h6 class="category">Statistics</h6>
+                                    </div>
+                                </div>
+                                <h3 class="card-title"><a href="blog-single.html">Statistical Analysis of Energy
+                                        Performance of Buildings</a></h3>
+                                <p class="card-description">
+                                    Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent
+                                    sapien massa, convallis
+                                    a pellentesque nec,
+                                    egestas non nisi.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="post-author">
+                                    <a href="#">
+                                        <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                                        <span class="author">Morgan Freeman</span>
+                                    </a>
+                                </div>
+                                <div class="post-date">
+                                    <button type="button" class="btn btn-outline-info" style="color: #000000;"
+                                        onclick="window.open('https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques')">
+                                        Code
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                            <div class="card-img">
+                                <a href="blog-single.html"><img src="assets/img/flight-delay.jpg"
+                                        style="height:250px; width:450px;" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-category-box">
+                                    <div class="card-category">
+                                        <h6 class="category">Machine Learning</h6>
+                                    </div>
+                                </div>
+                                <h3 class="card-title"><a href="blog-single.html">Predicting Flight Delays</a></h3>
+                                <p class="card-description">
+                                    Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent
+                                    sapien massa, convallis
+                                    a pellentesque nec,
+                                    egestas non nisi.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="post-author">
+                                    <a href="#">
+                                        <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                                        <span class="author">Morgan Freeman</span>
+                                    </a>
+                                </div>
+                                <div class="post-date">
+                                    <button type="button" class="btn btn-outline-info" style="color: #000000;"
+                                        onclick="window.open('https://github.com/nihalarya177/House-Prices-Advanced-Regression-Techniques')">
+                                        Code
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section><!-- End Blog Section -->
 
-  <!-- ======= Footer ======= -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
-            <div class="credits">
-              <!--
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio section-bg">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Portfolio</h2>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
+                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
+                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                </div>
+
+                <div class="row" data-aos="fade-up">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-app">App</li>
+                            <li data-filter=".filter-card">Card</li>
+                            <li data-filter=".filter-web">Web</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/AMD-work-logo.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/AMD-work-logo.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/AMD-work-logo.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/AMD-work-logo.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/AMD-work-logo.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Portfolio Section -->
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route"
+            style="background-image: url(assets/img/overlay-bg.jpg)">
+            <div class="overlay-mf"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="contact-mf">
+                            <div id="contact" class="box-shadow-full">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="title-box-2">
+                                            <h5 class="title-left">
+                                                Send Message Us
+                                            </h5>
+                                        </div>
+                                        <div>
+                                            <form action="forms/contact.php" method="post" role="form"
+                                                class="php-email-form">
+                                                <div class="row">
+                                                    <div class="col-md-12 mb-3">
+                                                        <div class="form-group">
+                                                            <input type="text" name="name" class="form-control"
+                                                                id="name" placeholder="Your Name" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 mb-3">
+                                                        <div class="form-group">
+                                                            <input type="email" class="form-control" name="email"
+                                                                id="email" placeholder="Your Email" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 mb-3">
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" name="subject"
+                                                                id="subject" placeholder="Subject" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <textarea class="form-control" name="message" rows="5"
+                                                                placeholder="Message" required></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 text-center my-3">
+                                                        <div class="loading">Loading</div>
+                                                        <div class="error-message"></div>
+                                                        <div class="sent-message">Your message has been sent. Thank you!
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 text-center">
+                                                        <button type="submit"
+                                                            class="button button-a button-big button-rouded">Send
+                                                            Message</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="title-box-2 pt-4 pt-md-0">
+                                            <h5 class="title-left">
+                                                Get in Touch
+                                            </h5>
+                                        </div>
+                                        <div class="more-info">
+                                            <p class="lead">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum
+                                                dolorem soluta quidem
+                                                expedita aperiam aliquid at.
+                                                Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione
+                                                nobis
+                                                mollitia inventore?
+                                            </p>
+                                            <ul class="list-ico">
+                                                <li><span class="bi bi-geo-alt"></span> 329 WASHINGTON ST BOSTON, MA
+                                                    02108</li>
+                                                <li><span class="bi bi-phone"></span> (617) 557-0089</li>
+                                                <li><span class="bi bi-envelope"></span> contact@example.com</li>
+                                            </ul>
+                                        </div>
+                                        <div class="socials">
+                                            <ul>
+                                                <li><a href=""><span class="ico-circle"><i
+                                                                class="bi bi-facebook"></i></span></a></li>
+                                                <li><a href=""><span class="ico-circle"><i
+                                                                class="bi bi-instagram"></i></span></a></li>
+                                                <li><a href=""><span class="ico-circle"><i
+                                                                class="bi bi-twitter"></i></span></a></li>
+                                                <li><a href=""><span class="ico-circle"><i
+                                                                class="bi bi-linkedin"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Contact Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="copyright-box">
+                        <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+                        <div class="credits">
+                            <!--
               All the links in the footer should remain intact.
               You can delete the links only if you purchased the pro version.
               Licensing information: https://bootstrapmade.com/license/
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
             -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
+    </footer><!-- End  Footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
 
 </body>
 
